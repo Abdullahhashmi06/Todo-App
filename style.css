@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+    height: 930px;
+}
+
+.icon{
+    margin: 0 5px 0 5px !important;
+    cursor: pointer;
+}
+
+.trash {
+    margin-left: 20px !important;
+    
+}
+
+.jumbotron{
+    background: none;
+    /* background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  */
+    /* background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  */
+    color: white;
+}
+
+.todoInput{
+    padding: 10px !important;
+    border: none !important;
+    background: #264653;
+    border-radius: 5px !important;
+    color: white;
+    transition: ease 2s !important;
+}
+
+.todoLi {
+    color: white;
+    letter-spacing: 1.4px !important;
+}
+
+.todoInput:focus {
+    border-radius: 5px !important;
+    transition: ease 2s !important;
+    background-color: #192f37;
+}
+
+#list{
+    height:350px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 415px) {
+    .todoInput {
+        width: 100% !important;
+    }
+  }
